@@ -8,5 +8,5 @@
 	padding: 2px 8px;
 	font-size: small;
 	line-height: inherit;
-	margin-bottom: 0px;
+	margin-bottom: 0px !important;
 }
