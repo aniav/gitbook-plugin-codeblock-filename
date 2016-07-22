@@ -6,21 +6,20 @@
     "url": "https://github.com/aniav/gitbook-plugin-codeblock-filename/issues"
   },
   "dependencies": {},
-  "description": "Add to Filename in Codeblock",
+  "description": "Add a filenames above codeblocks",
   "devDependencies": {},
   "engines": {
     "gitbook": "3.*"
   },
-  "homepage": "https://github.com/litmon/gitbook-plugin-codeblock-filename",
+  "homepage": "https://github.com/aniav/gitbook-plugin-codeblock-filename",
   "license": "MIT",
   "main": "index.js",
   "name": "gitbook-plugin-codeblock-filename",
   "optionalDependencies": {},
-  "readme": "# Gitbook Plugin: Add Filename to Codeblock\n\nThis is a gitbook plugin.\n\nAdd filename to\tcodeblock.\n\n## Usage\n\nYou can install this plugin via NPM and save it to `package.json`.\n\n```\n$ npm install gitbook-plugin-codeblock-filename --save\n```\n\nAdd the plugin to your `book.json`:\n\n```\n{\n\tplugins: [ \"codeblock-filename\" ] \n}\n```\n\nThen, you need only to insert before codeblock the code below.\n\n<pre><code>\n!FILENAME filename\n```\ncodeblock\n```\n</code></pre>\n\nYou can also write below like qiita,\n\n<pre><code>\n```js:test.js\ncodeblock\n```\n</code></pre>\n\nCode format is not necessary. So you can exclude `js`. \n\nYou can also write below,\n\n<pre><code>\n```:test.js\ncodeblock\n```\n</code></pre>\n\nThen, you can see the filename on top of the codeblock.\n\n## Example\n\nwrite this code ↓\n\n<pre><code>\n!FILENAME test.js\n```\nvar a = 10;\na = a + 1;\n\nconsole.log(a);\n```\n</code></pre>\n\nthen result is ↓\n\n![screenshot](screenshot.png)\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aniav/gitbook-plugin-codeblock-filename.git"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

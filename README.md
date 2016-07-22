@@ -23,39 +23,20 @@ Add the plugin to your `book.json`:
 Then, you need only to insert before codeblock the code below.
 
 <pre><code>
-!FILENAME filename
+{% filename %}filename{% endfilename %}
 ```
 codeblock
 ```
 </code></pre>
 
-You can also write below like qiita,
-
-<pre><code>
-```js:test.js
-codeblock
-```
-</code></pre>
-
-Code format is not necessary. So you can exclude `js`. 
-
-You can also write below,
-
-<pre><code>
-```:test.js
-codeblock
-```
-</code></pre>
-
-Then, you can see the filename on top of the codeblock.
 
 ## Example
 
 write this code ↓
 
 <pre><code>
-!FILENAME test.js
-```
+{% filename %}test.js{% endfilename %}
+```js
 var a = 10;
 a = a + 1;
 
@@ -65,4 +46,4 @@ console.log(a);
 
 then result is ↓
 
-![screenshot](screenshot.png)
+![screenshot](./screenshot.png)
