@@ -3,7 +3,7 @@
     "name": "aniav"
   },
   "bugs": {
-    "url": "https://github.com/aniav/gitbook-plugin-codeblock-filename/issues"
+    "url": "https://github.com/aniav/gitbook-plugin-codeblock-label/issues"
   },
   "dependencies": {},
   "description": "Add a filenames above codeblocks",
@@ -11,15 +11,15 @@
   "engines": {
     "gitbook": "3.*"
   },
-  "homepage": "https://github.com/aniav/gitbook-plugin-codeblock-filename",
+  "homepage": "https://github.com/aniav/gitbook-plugin-codeblock-label",
   "license": "MIT",
   "main": "index.js",
-  "name": "gitbook-plugin-codeblock-filename",
+  "name": "gitbook-plugin-codeblock-label",
   "optionalDependencies": {},
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aniav/gitbook-plugin-codeblock-filename.git"
+    "url": "git+https://github.com/aniav/gitbook-plugin-codeblock-label.git"
   },
   "version": "1.0.1"
 }
